@@ -1,0 +1,69 @@
+/**
+ * VisitIn Design Tokens
+ * Direction: Welcoming, calm, safe, premium, human, modern, trustworthy.
+ * "You're in the right place. We'll make this easy."
+ */
+
+:root {
+  /* Brand Core Palette */
+  --color-ink: #182126;
+  --color-warm-bg: #F7F4EE;
+  --color-coral: #D96C50;
+  --color-sage: #2F7A64;
+  --color-gold: #C78A27;
+  --color-lavender: #6D648C;
+
+  /* Surfaces */
+  --color-surface-card: #FFFFFF;
+  --color-surface-subtle: #FAF8F5;
+  --color-surface-muted: #EFECE4;
+  --color-border: #E5DFD4;
+  --color-border-subtle: #EFECE5;
+  --color-border-focus: #D96C50;
+
+  /* Text & Contrast */
+  --color-text-primary: #182126;
+  --color-text-secondary: #4F6370;
+  --color-text-muted: #738A96;
+  --color-text-subtle: #A4B4BD;
+  --color-text-inverse: #FFFFFF;
+
+  /* Semantic Feedback Tints */
+  --color-success-bg: #EAF4F0;
+  --color-success-text: #1E4E40;
+  --color-success-border: #C7E1D4;
+
+  --color-warning-bg: #FAF4E4;
+  --color-warning-text: #835417;
+  --color-warning-border: #F4E5BD;
+
+  --color-error-bg: #FDF0ED;
+  --color-error-text: #843522;
+  --color-error-border: #F9D4CB;
+
+  --color-info-bg: #F2F0F7;
+  --color-info-text: #463F5C;
+  --color-info-border: #DDD8E7;
+
+  /* Typography */
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --line-height-comfortable: 1.6;
+
+  /* Radii */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
+  --radius-2xl: 24px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-normal: 240ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 360ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Elevation */
+  --shadow-warm-sm: 0 1px 3px 0 rgba(24, 33, 38, 0.05), 0 1px 2px -1px rgba(24, 33, 38, 0.04);
+  --shadow-warm-md: 0 4px 12px -2px rgba(24, 33, 38, 0.06), 0 2px 6px -2px rgba(24, 33, 38, 0.04);
+  --shadow-warm-lg: 0 12px 24px -4px rgba(24, 33, 38, 0.08), 0 4px 12px -3px rgba(24, 33, 38, 0.03);
+}
